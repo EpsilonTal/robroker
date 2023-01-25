@@ -5,12 +5,10 @@ import (
 	"github.tools.sap/atom-cfs/mock-api/utils"
 	"log"
 	"net/http"
-	"sync"
 )
 
 var (
 	brokers map[string]*utils.BrokerSettings
-	mutex   *sync.Mutex
 )
 
 func main() {

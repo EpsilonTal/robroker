@@ -30,7 +30,7 @@ func main() {
 	router.HandleFunc("/broker/{brokerID}", updateBroker).Methods("PATCH")
 	router.HandleFunc("/broker/{brokerID}", deleteBroker).Methods("DELETE")
 	router.HandleFunc("/broker", createBroker).Methods("POST")
-	router.HandleFunc("/broker", getAllBrokers).Methods("GET")
+	router.HandleFunc("/", getAllBrokers).Methods("GET")
 
 	/*
 		Mandatory flag:

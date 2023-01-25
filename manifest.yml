@@ -1,0 +1,4 @@
+---
+applications:
+  - name: robroker
+    memory: 100M

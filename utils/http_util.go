@@ -16,9 +16,9 @@ const (
 
 	StatusKey = "status"
 
-	AllKey  = "all"
+	AllKey = "all"
 
-	HostURL = "https://robroker.cert.cfapps.stagingaws.hanavlab.ondemand.com/broker/%s/"
+	HostURL = "https://robroker.<host>.com/broker/%s/"
 )
 
 func GenerateResponse(w http.ResponseWriter, statusCode int, object interface{}) http.ResponseWriter {

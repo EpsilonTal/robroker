@@ -380,12 +380,13 @@ When finishing with the mock api config, remember to delete it in order to avoid
 `DELETE` request to `https://<host>/broker/<uuid>`
 `uuid` - is the unique id of your mock config
 
-**NOTE!**
+[comment]: <> (**NOTE!**)
 
-You can delete all configurations in your app memory using the `all=true` flag.
+[comment]: <> (You can delete all configurations in your app memory using the `all=true` flag.)
 
-Example:
-`DELETE` request to `https://<host>/mockConfig?all=true`
+[comment]: <> (Example:)
+
+[comment]: <> (`DELETE` request to `https://<host>/broker?all=true`)
 
 ### Response
 
